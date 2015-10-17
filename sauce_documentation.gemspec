@@ -2,8 +2,8 @@ require_relative 'lib/sauce_documentation/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'sauce_documentation'
-  spec.version       = SauceDocumentation::VERSION
-  spec.date          = SauceDocumentation::DATE
+  spec.version       = SauceDocumentationMetadata::VERSION
+  spec.date          = SauceDocumentationMetadata::DATE
   spec.license       = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
   spec.description   = spec.summary = 'Sauce documentation formatter for RSpec'
   spec.description   += '.' # avoid identical warning
