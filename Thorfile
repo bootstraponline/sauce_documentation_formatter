@@ -4,6 +4,7 @@ require 'appium_thor'
 Appium::Thor::Config.set do
   gem_name 'sauce_documentation_formatter'
   github_owner 'bootstraponline'
+  version_file 'lib/sauce_documentation/version.rb'
 end
 
 # Must use '::' otherwise Default will point to Thor::Sandbox::Default
@@ -18,11 +19,6 @@ class ::Default < Thor
     exec 'bundle exec rspec spec'
   end
 
-  desc 'cuke', 'Run cucumber tests'
-  def cuke
-    exec 'bundle exec cucumber -f progress'
-  end
-
   desc 'cover', 'Push coverage results to coveralls'
   def cover
     require 'coveralls'
@@ -32,6 +28,6 @@ class ::Default < Thor
   # so many errors.
   desc 'cop', 'Execute rubocop'
   def cop
-    exec 'bundle exec rubocop --display-cop-names'
+    exec 'bundle exec rubocop --display-cop-names lib/'
   end
 end

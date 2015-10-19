@@ -3,7 +3,6 @@ cache: bundler
 rvm:
   - 2.2.3
 script:
-  - bundle exec thor cuke
   - bundle exec thor spec
   - bundle exec thor cover
 notifications:
