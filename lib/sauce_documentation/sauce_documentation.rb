@@ -23,7 +23,10 @@ class SauceDocumentation < RSpec::Core::Formatters::DocumentationFormatter
       sauce_test_link = failure.example.metadata[:sauce_test_link]
       next unless sauce_test_link
 
-      message = "#{exception.message}\n#{sauce_test_link}"
+      # Use nonbreaking space to bypass message.strip and ensure we have
+      # a newline after the message and before the stack trace.
+      nbsp = "\u00A0"
+      message = "#{exception.message}\n#{sauce_test_link}\n#{nbsp}"
       exception.instance_eval <<-RUBY
         def message
           %q(#{message})

@@ -1,0 +1,12 @@
+language: ruby
+cache: bundler
+rvm:
+  - 2.2.3
+script:
+  - bundle exec thor cuke
+  - bundle exec thor spec
+  - bundle exec thor cover
+notifications:
+  email:
+    on_success: never
+    on_failure: never
