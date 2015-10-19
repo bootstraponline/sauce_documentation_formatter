@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.description   = spec.summary = 'Sauce documentation formatter for RSpec'
   spec.description   += '.' # avoid identical warning
   spec.authors       = spec.email = ['code@bootstraponline.com']
-  spec.homepage      = 'https://github.com/bootstraponline/sauce_rspec'
+  spec.homepage      = 'https://github.com/bootstraponline/sauce_documentation_formatter'
   spec.require_paths = ['lib']
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
