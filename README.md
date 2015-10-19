@@ -4,9 +4,6 @@
 [![Dependency Status](https://gemnasium.com/bootstraponline/sauce_documentation_formatter.svg)](https://gemnasium.com/bootstraponline/sauce_documentation_formatter)
 [![Coverage Status](https://coveralls.io/repos/bootstraponline/sauce_documentation_formatter/badge.svg?nocache2)](https://coveralls.io/r/bootstraponline/sauce_documentation_formatter)
 
-A fork of [yarjuf](https://github.com/natritmeyer/yarjuf) containing additional features and bug fixes.
-Another popular junit formatter is [sauce_documentation_formatter_formatter](https://github.com/sj26/sauce_documentation_formatter_formatter).
-
 ## Usage
 
 ```ruby
@@ -23,8 +20,9 @@ end
 Identical to RSpec Documentation formatter except the `example.metadata[:sauce_test_link]`
 is used to output the sauce test link.
 
+# Example output
+
 ```
-# example output
   2) SauceDocumentation fails and outputs sauce link
      Failure/Error: expect(3).to eq(4)
        
