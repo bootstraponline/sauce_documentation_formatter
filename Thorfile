@@ -2,7 +2,7 @@ require 'rubygems'
 require 'appium_thor'
 
 Appium::Thor::Config.set do
-  gem_name 'sauce_documentation_formatter'
+  gem_name 'sauce_documentation'
   github_owner 'bootstraponline'
   version_file 'lib/sauce_documentation/version.rb'
 end
