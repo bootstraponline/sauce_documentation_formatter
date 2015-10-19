@@ -1,6 +1,6 @@
 # Sauce Documentation Formater 
 [![Gem Version](https://badge.fury.io/rb/sauce_documentation_formatter.svg)](https://rubygems.org/gems/sauce_documentation_formatter)
-[![Build Status](https://travis-ci.org/bootstraponline/sauce_documentation_formatter.svg)](https://travis-ci.org/bootstraponline/sauce_documentation_formatter)
+[![Build Status](https://travis-ci.org/bootstraponline/sauce_documentation_formatter.svg)](https://travis-ci.org/bootstraponline/sauce_documentation_formatter/builds)
 [![Dependency Status](https://gemnasium.com/bootstraponline/sauce_documentation_formatter.svg)](https://gemnasium.com/bootstraponline/sauce_documentation_formatter)
 [![Coverage Status](https://coveralls.io/repos/bootstraponline/sauce_documentation_formatter/badge.svg?nocache2)](https://coveralls.io/r/bootstraponline/sauce_documentation_formatter)
 
